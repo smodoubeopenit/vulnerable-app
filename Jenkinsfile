@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        go 'go-1.16'
+        nodejs 'NodeJS-15.10.0'
     }
   
     stages {
