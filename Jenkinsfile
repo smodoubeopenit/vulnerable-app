@@ -13,7 +13,7 @@ pipeline {
         }
     stage('Code Analysis') {
             steps {
-                sh '/usr/local/bin/sl analyze --app AngularShiftLeft --js --cpg ./...'
+                sh '/usr/local/bin/sl analyze --app AngularShiftLeft --js --cpg .'
                
             }
        }
